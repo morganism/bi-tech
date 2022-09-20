@@ -16,6 +16,10 @@ class ClassScript
     @number = options.number
   end
 
+  def multiply_by_2
+    @number * 2
+  end
+
   def print
     puts "Number is #{@number}"
   end
