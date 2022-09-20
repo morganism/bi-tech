@@ -16,6 +16,15 @@ class ClassScript
     @number = options.number
   end
 
+  def segment(input, dictionary)
+    sorted_dictionary = dictionary.sort_by(&:length).reverse
+    sorted_dictionary.each do |word|
+      input.gsub!(word,"")
+    end
+    return input == ''
+    false
+  end
+
   def multiply_by(multiplier)
     @number * multiplier
   end
