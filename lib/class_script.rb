@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # morgan.sziraki@gmail.com
 # Tue 20 Sep 2022 10:31:07 BST
 
