@@ -15,6 +15,6 @@ require 'class_script'
      options = OpenStruct.new
      options.number = 2
      cs = ClassScript.new(options)
-     expect(cs.multiply_by_2).to eq(4)
+     expect(cs.multiply_by(2)).to eq(4)
    end
  end

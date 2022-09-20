@@ -16,8 +16,8 @@ class ClassScript
     @number = options.number
   end
 
-  def multiply_by_2
-    @number * 2
+  def multiply_by(multiplier)
+    @number * multiplier
   end
 
   def print
