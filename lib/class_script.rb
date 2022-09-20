@@ -10,6 +10,8 @@ EXIT_INVALID_OPTIONS = 1
 
 class ClassScript
 
+  attr_accessor :number
+
   def initialize(options)
     @number = options.number
   end
